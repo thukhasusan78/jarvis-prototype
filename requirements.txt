@@ -1,0 +1,53 @@
+# --- Core Server & Utils ---
+fastapi
+uvicorn
+python-dotenv
+requests
+websockets
+python-multipart
+pytz
+
+# --- AI & LLM (Gemini/LangChain) ---
+google-genai
+langchain
+langchain-google-genai
+langchain-community
+langgraph
+
+# --- Automation ---
+pyautogui
+python-telegram-bot
+
+# --- Face Recognition (Strict Versions) ---
+numpy==1.26.4
+opencv-python==4.8.1.78
+onnx==1.14.0
+onnxruntime==1.16.3
+
+# --- WebRTC & Audio Processing ---
+aiortc
+aiohttp
+av
+scipy  
+# ^ Scipy is added for new high-performance audio processing
+
+# --- New JARVIS Intelligence (Wake Word, Speaker ID, VAD) ---
+openwakeword
+#resemblyzer
+torch
+torchaudio
+sounddevice
+typing
+webrtcvad-wheels
+# silero (optional, usually torch hub is enough, but listing libraries used by resemblyzer)
+
+# --- Memory & Database ---
+supabase
+redis
+upstash-redis
+librosa
+
+#Tools
+googlemaps
+wikipedia
+ddgs
